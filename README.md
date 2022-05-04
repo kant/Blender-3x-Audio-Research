@@ -8,12 +8,12 @@
 
 This current documentation (*in progress*) is intended to demonstrate the requested audio features in the context of editing audio contents/data within **Blender**[^1] itself, the well known Free and Open Source 3D application, and within **Audaspace**[^2], the Audio C++ Library built in Blender to process digital audio. It is mainly used in the **Video Sequencer Editor (VSE)** for playing Audio strips and **3D Space** as 3D Speaker Objects.
 
-Here, i want to present specific [features](#radio_button-ongoing-works) which will make it possible to work on the [audio data](#radio_button-audio-data-specifications), including **routing, processing and visualizations**. For all users with basic needs in terms of **Audio Mixing**, this **[proposal](#radio_button-development-strategy-and-gsoc-proposal)** is focused on:
+Here, I want to present specific [features](#radio_button-ongoing-works) which will make it possible to work on the [audio data](#radio_button-audio-data-specifications), including **routing, processing and visualizations**. For all users with basic needs in terms of **Audio Mixing**, this **[proposal](#radio_button-development-strategy-and-gsoc-proposal)** is focused on:
 - **Media Productivity**[^3], including audio and Video editing, Animations, Games Post-production...
 - **VR/AR Art and Experiments**, including Multiverse Production, Installations and Real-time Performances
 - **Surround Contents Creation**, including music clip edition and digital mixing console, up to 8 outputs channels
 
-> The main goal is to build a new patch (or maybe a Git Branch) to present to the **Blender Foundation**[^4] and **GSoC** 2023[^5]. The development of this patch is encouraged by the Blender community members and it will be first tested by other Blender developpers, then it will be sent to the BF for final approval. I invite you to post in the "Pull Requests" section any comments or suggestions that you think it is important to consider. Thank you.
+> The main goal is to build a new patch (or maybe a Git Branch) to present to the **Blender Foundation**[^4] and **GSoC** 2023[^5]. The development of this patch is encouraged by the Blender community members and it will be first tested by other Blender developers, then it will be sent to the BF for final approval. I invite you to post in the "Pull Requests" section any comments or suggestions that you think it is important to consider. Thank you.
 
 ![Mix](https://github.com/KoreTeknology/Blender-3x-Audio-Research/blob/main/images/proposal_band.jpg)
 
@@ -141,7 +141,7 @@ Here, i want to present specific [features](#radio_button-ongoing-works) which w
 
 ### Blender builds
 
-- Blender Source Code: [Repository](https://github.com/blender) / [Code Structure](https://wiki.blender.org/wiki/Source/File_Structure) / [Developpers Documentation](https://www.blender.org/get-involved/developers/) / [Advices](https://wiki.blender.org/wiki/Developer_Intro/Advice)
+- Blender Source Code: [Repository](https://github.com/blender) / [Code Structure](https://wiki.blender.org/wiki/Source/File_Structure) / [Developers Documentation](https://www.blender.org/get-involved/developers/) / [Advices](https://wiki.blender.org/wiki/Developer_Intro/Advice)
 - Building Blender [Windows OS](https://wiki.blender.org/wiki/Building_Blender/Windows) / [Coding Style](https://wiki.blender.org/wiki/Style_Guide) / [Patching](https://wiki.blender.org/wiki/Process/Contributing_Code) / [Diferencial](https://secure.phabricator.com/book/phabricator/article/differential/) / [Arcanist](https://wiki.blender.org/wiki/Tools/CodeReview#Use_Arcanist)
 
 ### Audaspace Library and Python
@@ -170,7 +170,7 @@ Here, i want to present specific [features](#radio_button-ongoing-works) which w
 > 
 > **2014 February** - First Midi Script/Addon Development, Learning RTmidi C++ Lib
 > 
-> **2012 March** - First Movie Making workshop,teaching using the Blender VSE (82 students)
+> **2012 March** - First Movie Making workshop, teaching using the Blender VSE (82 students)
 >
 > **2011 January** - First Professional Blender Training, Design and Architecture (113 students)
 >
@@ -199,7 +199,7 @@ Here, i want to present specific [features](#radio_button-ongoing-works) which w
 [^3]: In This case, Blender is used as a Audio/Video Sequencer Editor
 [^4]: The Blender Foundation (2002) is an independent public benefit organization with the purpose to provide a complete, free and open source 3D creation pipeline, managed by public projects on blender.org.
 [^5]: **GSoc** or **Google Summer of Code** is a global, online program focused on bringing new contributors into open source software development. GSoC Contributors work with an open source organization on a 12+ week programming project under the guidance of mentors.
-[^6]: **Google Patents:** [Google Patents: Real-time Surround Digital Mixer ](https://patents.google.com/patent/FR2839601A1/en) by uriel Deveaud @2001
+[^6]: **Google Patents:** [Google Patents: Real-time Surround Digital Mixer](https://patents.google.com/patent/FR2839601A1/en) by uriel Deveaud @2001
 [^note]:
     This work is dedicated to **all Blender users** ;) and the **Free Software Foundation Members**.
     I do this work in my free time, without any profit, enjoy!
